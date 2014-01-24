@@ -8,7 +8,7 @@ package connect4;
 
 /**
  *
- * @author Greetings My Liege
+ * @author Greetings My Liege and Kyle Eslick
  */
 public class Connect4 {
 
