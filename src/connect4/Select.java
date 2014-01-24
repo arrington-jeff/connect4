@@ -16,4 +16,3 @@ public class Select {
     int players = 2;
         
     }
-}
