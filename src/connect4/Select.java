@@ -11,5 +11,9 @@ package connect4;
  * @author Greetings My Liege
  */
 public class Select {
-    
+    int difficulty = 2;
+            
+    int players = 2;
+        
+    }
 }
