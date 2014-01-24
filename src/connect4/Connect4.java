@@ -10,7 +10,7 @@ import java.util.Scanner;
 
 /**
  *
- * @author Greetings My Liege
+ * @author Greetings My Liege and Kyle
  */
 public class Connect4 {
     String name;
