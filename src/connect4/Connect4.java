@@ -33,4 +33,12 @@ public class Connect4 {
         System.out.println("\nWelcome " + this.name + "\n");
         System.out.println(this.instructions);
     }
+
+    void playNow() {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
+
+    void select() {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
 }
