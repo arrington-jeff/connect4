@@ -25,6 +25,7 @@ public class Connect4 {
         gameBoard.newBoard();
         Options gameOptions = new Options();
         gameOptions.getOptions();
+        gameBoard.displayBoard();
 }
     
     public void getName() {
