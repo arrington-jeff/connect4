@@ -21,6 +21,10 @@ public class Connect4 {
         Connect4 myGame = new Connect4();
         myGame.getName();
         myGame.displayHelp();
+        GameBoard gameBoard = new GameBoard();
+        gameBoard.newBoard();
+        Options gameOptions = new Options();
+        gameOptions.getOptions();
 }
     
     public void getName() {
@@ -37,7 +41,7 @@ public class Connect4 {
     void playNow() {
         throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
-
+    
     void select() {
         throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }

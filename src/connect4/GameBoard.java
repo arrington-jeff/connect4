@@ -8,8 +8,16 @@ package connect4;
 
 /**
  *
- * @author Greetings My Liege
+ * @author Kyle Eslick
  */
 public class GameBoard {
+    int[][] gameBoard = new int[6][7];
     
+    public void newBoard() {
+        for (int i = 0; i < 6; i++) {
+            for (int j = 0; j < 7; j++) {
+                gameBoard[i][j] = 3; // Three means no one has gone there
+            }
+        }
+    }
 }
