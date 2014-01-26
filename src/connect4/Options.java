@@ -23,10 +23,10 @@ public class Options {
         this.userInput = input.next();
         
         if (userInput == "y") {
-            music = true;
+            this.music = true;
         }
         else {
-            music = false;
+            this.music = false;
         }
         
         Scanner input2 = new Scanner(System.in);
@@ -34,10 +34,10 @@ public class Options {
         this.userInput = input2.next();
         
         if (userInput == "y") {
-            hints = true;
+            this.hints = true;
         }
         else {
-            hints = false;
+            this.hints = false;
         }
     }    
 }
