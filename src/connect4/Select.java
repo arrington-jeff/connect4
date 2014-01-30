@@ -6,6 +6,8 @@
 
 package connect4;
 
+import java.util.Scanner;
+
 /**
  *
  * @author Greetings My Liege
@@ -13,10 +15,12 @@ package connect4;
 public class Select {
     int difficulty = 2;
     int players = 2;     
-    }
-    public static void difficulty() {
-        System.out.println("\n" + this.name + ", how difficult do you want"
-        +"your opponent to be? Choose 1-5")
+    private String name;
+    
+    public void difficulty() {
+        System.out.println(this.name + ", how difficult do you want"
+                + "your opponent to be? Choose 1-5");
         Scanner input = new Scanner(System.in);
         this.difficulty = input.next();
+}
 }
