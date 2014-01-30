@@ -30,5 +30,11 @@ public class PlayerStats {
         }
         double playerWinPercent = this.playerWins / totalGames;
         return playerWinPercent;
-    }    
+    }
+    
+    public void showStatistics(double playerWinPercent){
+        System.out.print("the players stats are: \"");
+        System.out.print(playerWinPercent);
+        System.out.print(" %\"\n");        
+    }
 }
