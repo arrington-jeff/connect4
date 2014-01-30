@@ -21,6 +21,6 @@ public class Select {
         System.out.println(this.name + ", how difficult do you want"
                 + "your opponent to be? Choose 1-5");
         Scanner input = new Scanner(System.in);
-        this.difficulty = input.next();
-}
+        //this.difficulty = input.next();
+    }
 }
