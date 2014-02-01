@@ -21,17 +21,20 @@ public class Main {
         Connect4 myGame = new Connect4();
         myGame.playNow();
         myGame.select();
+
+        
     }
-    public void playNow() {
-        // Will enter command to go to GameBoard.java once we figure out the
-        // command to do so.
-    }
-    
     public void select() {
+        Select choice = new Select();
+        choice.difficulty();
         System.out.println("Vs. Computer");
         System.out.println("Vs. Local Opponent");
         System.out.println("Vs. Online Opponent");
         System.out.println("What type of game would you like to play?");
         Scanner input = new Scanner(System.in);
+    }
+    public void playNow() {
+        GameBoard newGame = new GameBoard();
+        newGame.newBoard();
     }
 }
