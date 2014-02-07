@@ -23,6 +23,8 @@ public class Connect4 {
         myGame.displayHelp();
         GameBoard gameBoard = new GameBoard();
         gameBoard.newBoard();
+        HelpMenuView help = new HelpMenuView();
+        help.showView();
         Options gameOptions = new Options();
         gameOptions.getOptions();
         gameBoard.displayBoard();

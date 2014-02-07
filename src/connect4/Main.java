@@ -11,7 +11,7 @@ import java.util.Scanner;
 /**
  *
  * @author Greetings My Liege
- */
+
 public class Main {
     String startGame;
     String select;
@@ -20,9 +20,7 @@ public class Main {
     public static void main(String[] args) {
         Connect4 myGame = new Connect4();
         myGame.playNow();
-        myGame.select();
-
-        
+        myGame.select();        
     }
     public void select() {
         Select choice = new Select();
@@ -37,4 +35,4 @@ public class Main {
         GameBoard newGame = new GameBoard();
         newGame.newBoard();
     }
-}
+    *  */
