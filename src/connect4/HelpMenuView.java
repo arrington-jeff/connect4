@@ -16,7 +16,8 @@ public class HelpMenuView {
     public void showView(){
         help.showOptions();
         String userInput = help.getOption();
-        Boolean flag = true;
+        
+        Boolean flag = true;//Loop runs till set to false
         while (flag)
         {
             if ("1".equals(userInput)){
