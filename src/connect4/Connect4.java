@@ -21,6 +21,8 @@ public class Connect4 {
         Connect4 myGame = new Connect4();
         myGame.getName();
         myGame.displayHelp();
+        MainMenuView menu = new MainMenuView();
+        menu.runMenu();
         GameBoard gameBoard = new GameBoard();
         gameBoard.newBoard();
         HelpMenuView help = new HelpMenuView();
